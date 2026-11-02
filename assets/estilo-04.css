@@ -1,0 +1,5 @@
+
+/* Carrossel contínuo automático */
+.genres{display:flex!important;overflow-x:auto!important;scroll-snap-type:none!important;gap:12px!important;scrollbar-width:none;touch-action:pan-x;}
+.genres .genre{flex-shrink:0!important;scroll-snap-align:none!important;}
+@media(prefers-reduced-motion:reduce){.genres{scroll-behavior:auto!important}}

@@ -1,0 +1,12 @@
+
+/* Ajustes sutis sem alterar a sequência ou o funil */
+.hero{background-image:linear-gradient(90deg,rgba(34,9,19,.48) 0%,rgba(34,9,19,.16) 47%,transparent 75%),url("assets/imagem-02.webp")!important;background-size:cover;background-position:59% center}
+.hero-copy{position:relative;z-index:1;text-shadow:0 2px 9px rgba(43,12,23,.45)}
+.hero-price{text-shadow:none}
+.reading-feature>img{object-position:52% 45%}
+.offer-art>img{object-fit:cover;object-position:center center}
+.offer-overlay{text-shadow:0 3px 14px #290c1d,0 1px 3px #290c1d}
+.offer-overlay strong{letter-spacing:-2px}
+.benefits,.how,.platform,.faq details{box-shadow:0 6px 19px rgba(91,27,46,.10)}
+.cta:focus-visible,.faq summary:focus-visible{outline:3px solid #f6a2c4;outline-offset:3px}
+@media(max-width:380px){.hero{background-position:61% center}.hero-copy .script{font-size:42px}}

@@ -1,0 +1,85 @@
+:root{--wine:#470e1b;--pink:#d62d68;--pale:#fff1ec}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f9e9e7;color:var(--wine);font-family:'DM Sans',Arial,sans-serif}.site{max-width:490px;margin:auto;background:linear-gradient(120deg,#fff4ec,#ffe5e4 55%,#fff4ee);box-shadow:0 8px 32px #5c152530;overflow:hidden}.serif{font-family:'Playfair Display',Georgia,serif}.offer{background:#ae234e;color:white;text-align:center;padding:11px 5px;font-weight:800;font-size:13px;border-radius:30px 30px 0 0}.topbar{height:96px;background:#ffede5;display:flex;align-items:center;justify-content:space-around;border-radius:0 0 42% 16%;position:relative;z-index:3;box-shadow:0 4px 10px #3b0b1320}.logo{font-family:'Playfair Display',serif;font-size:30px;font-weight:800;letter-spacing:-1.5px}.logo small{display:block;text-align:center;color:#ce3e6c;font-size:24px;line-height:1}.menu,.favorite{background:none;border:0;font-size:30px;color:var(--wine);cursor:pointer}.hero{position:relative;height:515px;background:linear-gradient(90deg,#4d1e24d9 0%,#63343b80 44%,#0000 80%),url('assets/imagem-01.webp') center 44%/cover no-repeat;margin-top:-17px;overflow:hidden}.hero:after{content:'';position:absolute;inset:auto 0 0;height:75px;background:linear-gradient(transparent,#f6d4cd)}.hero-copy{position:relative;z-index:1;color:white;padding:64px 12px 0 24px;width:70%;text-shadow:0 2px 5px #25070970}.script{font-family:'Great Vibes',cursive;font-size:43px;line-height:1.1}.hero-copy p{font:700 22px/1.2 Georgia,serif;margin:6px 0 20px}.seal{display:inline-flex;flex-direction:column;align-items:center;padding:16px 22px;border-radius:45% 42% 35% 39%;background:#fff0df;color:#a5204b;text-shadow:none;box-shadow:0 5px 15px #27091655;transform:rotate(-3deg)}.seal strong{font:800 37px/.98 Georgia,serif}.seal small{font:700 15px Georgia,serif}.price-ribbon{margin-top:12px;width:max-content;background:#b51c56;padding:10px 22px;border-radius:25px;color:#fff;font:800 49px/1 Georgia,serif;box-shadow:0 5px 14px #250b1766;transform:rotate(-2deg)}.benefits{position:relative;z-index:2;margin:-12px 18px 20px;border:2px solid white;border-radius:30px;background:#fff0efed;display:grid;grid-template-columns:repeat(3,1fr);padding:15px 4px;box-shadow:0 6px 12px #7b344127}.benefit{text-align:center;font:700 16px/1.2 Georgia,serif;padding:0 5px}.benefit+.benefit{border-left:1px solid #e6b9bc}.benefit i{display:block;font:normal 30px/1.2 Arial;color:#c62c66;margin-bottom:6px}.cta{display:block;width:calc(100% - 38px);margin:12px auto 8px;border:2px solid #fff;background:linear-gradient(#ef4380,#c41e5c);color:white;border-radius:40px;padding:17px 12px;font:800 17px 'DM Sans',sans-serif;text-align:center;text-decoration:none;box-shadow:0 4px 0 #9d2149,0 6px 12px #7b344138;cursor:pointer}.cta span{float:right}.trust{text-align:center;font-size:12px;margin:18px 0 24px}.trust span{background:#f8d9d9;border-radius:25px;padding:8px 10px;margin:0 2px}.wave{height:25px;width:100%;display:block}.genres-section{position:relative;padding:12px 24px 0;background:radial-gradient(ellipse at center,#fff8f3,#ffe3e4);overflow:hidden}.genres-section h2{font:800 26px/1.14 'Playfair Display',serif;text-align:center;margin:12px 15px 26px}.heart{position:absolute;top:22px;width:18%;max-width:85px}.heart.left{left:3%}.heart.right{right:3%}.genres{display:grid;gap:9px}.genre{display:flex;align-items:center;gap:15px;min-height:65px;padding:3px 15px;border-radius:45px;border:2px solid #fff;background:linear-gradient(90deg,#ffe6e5,#f8d3df);box-shadow:0 3px 2px #e7a2ac,0 5px 8px #c55c6d20;font:800 21px 'Playfair Display',serif}.genre:nth-child(3),.genre:nth-child(5){background:linear-gradient(90deg,#ffe5d6,#fce7e1)}.genre img{width:74px;height:66px;object-fit:contain}.genre-footer{height:178px;position:relative;margin:4px -24px 0;display:flex;align-items:center;justify-content:flex-end;padding:0 5% 0 42%}.genre-footer .books{position:absolute;bottom:0;left:0;width:49%;max-height:190px;object-fit:contain;object-position:bottom left}.genre-footer p{font:800 17px/1.2 Georgia,serif;text-align:center;z-index:1}.genre-footer .swoosh{position:absolute;bottom:14px;right:5%;width:36%}.section-title{font:800 27px/1.2 'Playfair Display',serif;text-align:center;margin:26px 8px 20px}.shelf{padding:4px 17px 24px;background:#fff0e9}.covers{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}.covers img{width:100%;aspect-ratio: .64;object-fit:cover;border-radius:7px;box-shadow:0 4px 9px #37101c38}.pink-stroke{width:160px;height:20px;margin:18px auto 0;border-top:3px solid #e7588c;border-radius:50%}.how{margin:8px 16px 15px;border-radius:30px;background:linear-gradient(#f8abc2,#f7c6d1);padding:12px 11px 14px}.how h2{margin:4px 0 18px}.step{display:flex;align-items:center;gap:12px;background:#fff0eddb;border-radius:40px;padding:10px;margin:9px 0}.number{display:grid;place-items:center;flex:0 0 37px;height:37px;border-radius:50%;background:#db477b;color:#fff;font:700 22px Georgia}.step-icon{font-size:29px;color:#a92255;width:38px;text-align:center}.step strong{font:800 16px Georgia}.step p{font-size:12px;color:#260d16;margin:3px 0 0}.platforms{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:0 17px 20px}.platform{border:2px solid white;border-radius:30px;text-align:center;background:#fff2ed;padding:20px 9px;box-shadow:0 5px 10px #641b2a20}.platform .symbol{font-size:45px;line-height:1}.platform h3{font:800 23px Georgia;margin:8px 0 5px}.platform p{font-size:13px;margin:0}.final-offer{position:relative;background:radial-gradient(ellipse at 50% 55%,#a95064,#4a1828 72%);color:#fff;text-align:center;padding:32px 10px 33px;overflow:hidden}.final-offer:before,.final-offer:after{content:'✦ ✧ ✦';position:absolute;color:#ffc96e;font-size:26px;top:30%;left:4%}.final-offer:after{left:auto;right:4%}.final-offer p{font:700 23px Georgia;margin:0}.final-offer strong{font:800 75px/1.2 Georgia;display:block}.final-offer small{font:700 18px Georgia;background:#d94681;padding:5px 20px;border-radius:25px}.book-emoji{font-size:75px;margin:6px}.final-offer .cta{margin-top:12px}.faq{padding:8px 18px 32px}.faq details{border:1px solid #dbaeb5;background:#fff0eb;border-radius:30px;margin:8px 0;padding:15px 18px}.faq summary{cursor:pointer;font:700 17px Georgia;list-style:none}.faq summary::-webkit-details-marker{display:none}.faq summary:after{content:'+';float:right;color:#b82960;font:800 24px Arial}.faq details[open] summary:after{content:'−'}.faq details p{font-size:14px;line-height:1.5;margin-bottom:0}@media(min-width:550px){.site{margin:24px auto;border-radius:32px}}@media(max-width:380px){.hero-copy{padding-left:14px}.seal strong{font-size:32px}.price-ribbon{font-size:43px}.genre{font-size:19px;gap:8px}.genre img{width:65px}.section-title{font-size:23px}}
+
+/* Tipografia refinada conforme referência */
+.logo{font-family:'Cormorant Garamond',Georgia,serif;font-weight:700;letter-spacing:-1px}
+.script{font-family:'Great Vibes',cursive;font-weight:400}
+.hero-copy p{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600}
+.seal strong{font-family:'Playfair Display',Georgia,serif;font-weight:800}
+.seal small{font-family:'Libre Baskerville',Georgia,serif;font-weight:700}
+.price-ribbon,.final-offer strong{font-family:'Playfair Display',Georgia,serif;font-weight:900}
+.cta{font-family:'Montserrat',Arial,sans-serif;font-weight:800}
+
+/* Refinamento visual com elementos reais e separados */
+.site{background:linear-gradient(150deg,#fff7f0,#ffe8e7 50%,#fff4ef)}
+.topbar{height:92px;border-radius:0 0 35px 35px;background:linear-gradient(120deg,#fff6ed,#ffe2e2);padding:8px 10px;box-shadow:0 5px 16px #752e3426}
+.logo{width:min(62%,265px);display:flex;align-items:center;justify-content:center}
+.logo img{width:100%;height:72px;object-fit:contain;mix-blend-mode:multiply}
+.menu,.favorite{flex:0 0 38px}
+.hero{height:580px;background-position:58% center}
+.hero-copy{padding-top:78px;width:100%;padding-left:20px}
+.hero-copy .script{font-size:47px;max-width:65%}
+.hero-copy p{font-size:25px;max-width:55%;line-height:1.06}
+.hero-price{display:block;width:min(72%,330px);height:auto;margin-top:12px;filter:drop-shadow(0 8px 9px #4b0c284d);mix-blend-mode:multiply}
+.benefits{margin-top:-15px}
+.cta{transition:transform .2s,filter .2s;letter-spacing:-.4px}
+.cta:hover{transform:translateY(-2px);filter:brightness(1.08)}
+.reading-feature{position:relative;margin:12px 17px 22px;border-radius:25px;overflow:hidden;box-shadow:0 8px 25px #66283a30;aspect-ratio:1.28}
+.reading-feature>img{width:100%;height:100%;object-fit:cover;object-position:center 43%;display:block}
+.reading-caption{position:absolute;inset:auto 0 0;background:linear-gradient(transparent,#300e20d9);color:white;padding:45px 18px 15px}
+.reading-caption span{font:700 23px 'Playfair Display',serif}.reading-caption p{margin:5px 0;font-size:13px}
+.final-offer{padding:0 0 24px;background:#481b2b}
+.offer-art{position:relative;min-height:345px;overflow:hidden}
+.offer-art>img{display:block;width:100%;height:345px;object-fit:cover;object-position:center;mix-blend-mode:normal}
+.offer-overlay{position:absolute;top:12%;left:0;right:0;text-align:center;text-shadow:0 3px 8px #270913}
+.offer-overlay p{font:700 24px 'Cormorant Garamond',serif}
+.offer-overlay strong{font:900 clamp(60px,15vw,83px) 'Playfair Display',serif;line-height:1.2}
+.offer-overlay small{display:inline-block;background:linear-gradient(100deg,#ed75a0,#d73875);font:700 16px Georgia;padding:7px 18px;border-radius:30px}
+.final-offer:before,.final-offer:after{display:none}
+.final-offer .cta{margin-top:-5px;position:relative;z-index:2}
+@media(max-width:380px){.hero{height:530px}.hero-price{width:72%}.offer-art,.offer-art>img{height:305px;min-height:305px}}
+
+/* Gêneros compactos em carrossel horizontal com rolagem por toque */
+.genres{display:flex!important;grid-template-columns:none!important;gap:12px!important;overflow-x:auto!important;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;padding:12px 18px 18px!important;scrollbar-width:none;align-items:stretch}
+.genres::-webkit-scrollbar{display:none}
+.genres .genre{flex:0 0 145px!important;min-width:145px!important;width:145px!important;height:158px!important;box-sizing:border-box;display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;gap:6px!important;padding:12px 8px!important;text-align:center!important;font-size:17px!important;line-height:1.1!important;scroll-snap-align:start;border-radius:22px!important}
+.genres .genre img{width:87px!important;height:88px!important;object-fit:contain!important;flex:none!important}
+.genre-footer{position:relative;overflow:hidden;padding-bottom:24px!important}
+.genre-footer .swoosh-clean{position:absolute;width:44%;height:46px;right:2%;bottom:0;pointer-events:none}
+@media(max-width:380px){.genres .genre{flex-basis:133px!important;min-width:133px!important;width:133px!important;height:148px!important}}
+
+/* Barra de oferta fixa e contador */
+.offer{position:fixed!important;top:0;left:50%;transform:translateX(-50%);width:min(100%,490px);z-index:9999!important;border-radius:0!important;min-height:48px;display:flex;justify-content:center;align-items:center;gap:5px;padding:10px 8px!important;font-size:clamp(11px,3.3vw,14px)!important;box-shadow:0 3px 12px #4b0e2530}
+#offer-countdown{display:inline-block;background:#fff5e8;color:#a61d4a;border-radius:7px;padding:4px 6px;font-variant-numeric:tabular-nums;font-weight:900;letter-spacing:.5px}
+.site{padding-top:48px}
+.topbar{justify-content:center!important;height:88px!important}
+.topbar .logo{margin:auto;display:flex;justify-content:center;align-items:center}
+.topbar .logo img{max-width:min(74vw,300px)!important;max-height:79px;object-fit:contain}
+.hero-copy .script{font-family:'Cormorant Garamond',Georgia,serif!important;font-style:normal!important;font-weight:700!important;letter-spacing:-1.5px!important;font-size:clamp(35px,10vw,50px)!important;line-height:1!important}
+
+/* Encerramento e barra fixa de compra */
+.site{padding-bottom:105px}
+.final-invite{padding:34px 24px 38px;text-align:center;background:#784324;color:#fff}
+.final-invite h2{font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(30px,8vw,43px);line-height:1.07;margin:0 0 18px}
+.final-invite p{font-size:16px;line-height:1.5;margin:0 auto 24px;max-width:390px}
+.final-invite .final-button{display:inline-flex;align-items:center;justify-content:center;gap:12px;background:linear-gradient(100deg,#d15b7b,#eb7992);color:white;text-decoration:none;border-radius:100px;padding:16px 24px;font:800 16px Montserrat,Arial,sans-serif;box-shadow:0 5px 0 #a94062;max-width:100%;box-sizing:border-box}
+.site-footer{background:#fff9f5;text-align:center;color:#876b64;padding:25px 18px 34px;font:14px/1.55 Arial,sans-serif}
+.site-footer .footer-brand{font-family:'Cormorant Garamond',Georgia,serif;font-size:23px;font-weight:700;margin-bottom:12px}
+.site-footer p{margin:9px 0}
+.sticky-buy{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:min(100%,490px);box-sizing:border-box;z-index:9998;background:rgba(255,250,248,.97);border:1px solid #ecc1cf;border-radius:22px 22px 0 0;padding:12px 14px calc(12px + env(safe-area-inset-bottom));display:flex;align-items:center;justify-content:space-between;gap:10px;box-shadow:0 -5px 25px #5a26321c;backdrop-filter:blur(8px)}
+.sticky-buy .sticky-info{min-width:0;color:#79452f;font:700 13px/1.25 Arial,sans-serif}
+.sticky-buy .sticky-info small{display:block;color:#906f68;font-size:11px;margin-bottom:3px}
+.sticky-buy .sticky-action{flex:none;background:linear-gradient(110deg,#d05b7d,#eb7692);color:#fff;text-decoration:none;border-radius:40px;padding:13px 17px;font:800 14px Arial,sans-serif;white-space:nowrap}
+@media(max-width:350px){.sticky-buy .sticky-action{padding:12px 11px;font-size:12px}.sticky-buy .sticky-info{font-size:12px}}
+
+/* Oferta final fiel à referência: arte em camada independente e bordas onduladas suaves */
+.final-offer{isolation:isolate;min-height:465px;padding:0 18px 40px!important;background:#5c2430!important;display:flex;align-items:stretch;justify-content:center;overflow:hidden;position:relative}
+.final-offer::before,.final-offer::after{content:none!important}
+.final-offer .offer-background{position:absolute;inset:0;z-index:-1;overflow:hidden;clip-path:polygon(0 4%, 10% 2%, 22% 3%, 35% 5%, 48% 3%, 60% 4%, 73% 5%, 87% 2%, 100% 4%,100% 96%,88% 98%,75% 97%,62% 99%,49% 97%,36% 99%,23% 97%,11% 98%,0 96%)}
+.final-offer .offer-background img{display:block;width:100%;height:100%;object-fit:cover;object-position:center center}
+.final-offer .offer-content{width:100%;max-width:520px;display:flex;flex-direction:column;align-items:center;position:relative;z-index:1;padding-top:46px}
+.final-offer .offer-content p{font-family:'Playfair Display',Georgia,serif;font-size:clamp(22px,5.3vw,32px);font-weight:700;text-shadow:0 2px 8px #4a1c2c;line-height:1.15}
+.final-offer .offer-content strong{font-family:'Playfair Display',Georgia,serif;font-size:clamp(64px,17vw,110px);font-weight:900;line-height:1.12;color:#fff2db;text-shadow:0 3px 8px #451c28;white-space:nowrap}
+.final-offer .offer-ribbon{background:linear-gradient(100deg,#f578a6,#e63f80,#f577a6);color:white;padding:9px 24px;box-shadow:0 4px 12px #4a122a66;font:700 clamp(18px,4.8vw,25px) 'Cormorant Garamond',Georgia,serif;transform:rotate(-1deg);border-radius:5px;max-width:95%}
+.final-offer .offer-cta{position:absolute;top:330px;left:0;right:0;margin:0!important;box-sizing:border-box;width:100%;min-height:64px;display:flex;align-items:center;justify-content:center;gap:14px;z-index:2;border:2px solid #fff4ec;border-radius:999px;background:linear-gradient(#e63c80,#b91f5a);box-shadow:0 5px 0 #781438,0 9px 20px #280a1d88;color:#fff;font:800 clamp(16px,4.2vw,22px) Montserrat,Arial,sans-serif;text-decoration:none;padding:12px 14px}
+.final-offer .offer-cta span{position:absolute;right:17px}
+@media(max-width:390px){.final-offer{min-height:420px}.final-offer .offer-cta{top:300px}}

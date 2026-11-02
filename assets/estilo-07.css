@@ -1,0 +1,5 @@
+
+/* Carrossel de gêneros: sem interferir no banner */
+.genres{scroll-behavior:auto!important;scroll-snap-type:none!important;overflow-x:auto!important;overscroll-behavior-x:contain!important;touch-action:pan-x!important;}
+.genres .genre{scroll-snap-align:none!important;}
+.genres::-webkit-scrollbar{display:none}

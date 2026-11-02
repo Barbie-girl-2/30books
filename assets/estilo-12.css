@@ -1,0 +1,9 @@
+
+/* Countdown visual feedback */
+#offer-countdown{display:inline-block;animation:countBeat 1s ease-in-out infinite;transform-origin:center;will-change:transform;}
+@keyframes countBeat{0%,100%{transform:scale(1);box-shadow:0 0 0 rgba(255,238,224,0)}50%{transform:scale(1.09);box-shadow:0 0 16px rgba(255,238,224,.65)}}
+@media(prefers-reduced-motion:reduce){#offer-countdown{animation:none}}
+/* Auto-scrolling book covers */
+.shelf .covers{display:flex!important;gap:13px!important;overflow-x:auto!important;overflow-y:hidden!important;scrollbar-width:none;scroll-snap-type:none!important;overscroll-behavior-inline:contain;touch-action:pan-x;}
+.shelf .covers::-webkit-scrollbar{display:none}
+.shelf .covers img{flex:0 0 auto!important;width:105px!important;height:160px!important;object-fit:cover!important;border-radius:8px;}
