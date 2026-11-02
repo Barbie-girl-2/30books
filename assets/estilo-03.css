@@ -1,0 +1,15 @@
+
+/* Correção: renderização fiel da arte, sem mistura de cores ou fundos artificiais */
+.hero-price {mix-blend-mode:normal!important;opacity:1!important;filter:drop-shadow(0 7px 9px rgba(54,9,30,.22))!important;isolation:isolate;object-fit:contain;}
+
+/* Atualização: ícones vetoriais, contagem animada e CTA em destaque */
+.benefit i{display:flex!important;align-items:center;justify-content:center;font-style:normal!important;min-height:38px}
+.benefit-svg{width:33px;height:33px;display:block;color:#bd2862}
+.trust span:first-child{background:#dcf7e4!important;color:#17653a!important;border:1px solid #b2e7c4!important;font-weight:700}
+.cta[href="#comprar"]{animation:ctaFloat 2.8s ease-in-out infinite,ctaGlow 2s ease-in-out infinite;will-change:transform,box-shadow}
+@keyframes ctaFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@keyframes ctaGlow{0%,100%{box-shadow:0 5px 0 #8e1943,0 8px 14px #7b16384a}50%{box-shadow:0 5px 0 #8e1943,0 10px 24px #ff4b99b3,0 0 17px #f9a0c0}}
+#offer-countdown{animation:timerBeat 1s ease-in-out infinite;display:inline-block;transform-origin:center}
+@keyframes timerBeat{0%,100%{transform:scale(1)}50%{transform:scale(1.075)}}
+.genres{scroll-behavior:smooth}
+@media(prefers-reduced-motion:reduce){.cta[href="#comprar"],#offer-countdown{animation:none!important}.genres{scroll-behavior:auto}}
